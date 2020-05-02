@@ -1,0 +1,169 @@
+/* Color palette
+   #f4f4f4
+   #8ec6c5
+   #6983aa
+   #8566aa
+   */
+/* Useful notes
+You can use display property to help with inline element blocks
+block
+inline
+inline-block
+none - takes away the element
+
+visibility property
+hidden - keeps its position just hides it
+
+position property
+relative - relative to previous location per html flow,
+push directional in pixels top bottom left right
+left - pushes right
+right - pushes left
+top - pushes down
+bottom - pushes up
+
+absolute position
+top bottom left right
+will push position relative to its parent and its parent div
+this will push the flow of the html out of natural order
+
+*/
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #8ec6c5;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  border: dotted #000 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 25%;
+}
+
+/* CLASS CSS */
+.intro {
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+  position: relative;
+  left: 30px;
+}
+
+.hello-name {
+  display: inline-block;
+  font-size: 4em;
+  position: relative;
+  right: 30px;
+}
+
+.under-word {
+  text-decoration: underline;
+}
+
+.mountain-image {
+  background-color: #8ec6c5;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mountain {
+  padding-top: 30px;
+  width: 80%;
+}
+
+.top-container {
+  background-color: #8ec6c5;
+  font-family: 'Caveat', cursive;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.middle-container {
+  background-color: #f4f4f4;
+  font-family: 'Caveat', cursive;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.skills {
+  margin: 100px auto 100px auto;
+}
+
+.intro-statement {
+  font-family: 'Raleway', sans-serif;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.statement {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10px;
+}
+
+.css-html-logo {
+  height: 90px;
+  width: 150px;
+}
+
+.skill-logo {
+  display: inline-block;
+  height: 90px;
+  width: 70px;
+  margin-left: 10px;
+}
+
+.skill-row {
+  line-height: 2em;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.bottom-container {
+  background-color: #6983aa;
+  font-family: 'Caveat', cursive;
+  height: 280px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.contact-me {
+  margin: 30px auto;
+  padding-top: 30px;
+}
+
+.copyright {
+  margin-top: 25px;
+}
+
+.linkedin {
+  height: 30px;
+  margin-top: 10px;
+  width: 30px;
+}
+
+.email-info {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 2em;
+}
